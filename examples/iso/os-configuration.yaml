@@ -8,13 +8,13 @@ operatingSystem:
   isoConfiguration:
     installDevice: /dev/vda
   time:
-    timezone: US/Eastern
+    timezone: Asia/Kolkata
     ntp:
       forceWait: true
       pools:
-        - north-america.pool.ntp.org
+        - in.pool.ntp.org
       servers:
-        - 0.north-america.pool.ntp.org
+        - 0.in.pool.ntp.org
   keymap: us
   users:
     - username: root
